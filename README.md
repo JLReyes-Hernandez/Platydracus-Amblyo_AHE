@@ -13,3 +13,5 @@ Description of python scripts.
  'check_alignment_lengths.py': Check that the alignments are divisible by 3.
 
 'minimum_completeness.py': Places the alignments with a specific number of sequences in a new folder.
+
+'gene_count_total_for_each_taxon.py': This script generates a taxon-gene presence matrix from an alignment and partition file. It extracts gene positions, checks for gene presence per taxon (ignoring ? and X), and outputs a CSV where each row represents a taxon and columns indicate gene presence (1 or 0). A "Total" column is added to count the number of genes present per taxon.
